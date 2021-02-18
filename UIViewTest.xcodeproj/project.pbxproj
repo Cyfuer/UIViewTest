@@ -16,6 +16,8 @@
 		D55C688E25C7FE0D006E8B95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C688D25C7FE0D006E8B95 /* main.m */; };
 		D55C689825C7FE0D006E8B95 /* UIViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C689725C7FE0D006E8B95 /* UIViewTestTests.m */; };
 		D55C68A325C7FE0D006E8B95 /* UIViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C68A225C7FE0D006E8B95 /* UIViewTestUITests.m */; };
+		D55C68B525C7FE74006E8B95 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C68B425C7FE74006E8B95 /* TestView.m */; };
+		D55C68BA25C7FEE2006E8B95 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55C68B925C7FEE2006E8B95 /* TestView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		D55C689E25C7FE0D006E8B95 /* UIViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55C68A225C7FE0D006E8B95 /* UIViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewTestUITests.m; sourceTree = "<group>"; };
 		D55C68A425C7FE0D006E8B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55C68B325C7FE74006E8B95 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		D55C68B425C7FE74006E8B95 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		D55C68B925C7FEE2006E8B95 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				D55C688925C7FE0D006E8B95 /* LaunchScreen.storyboard */,
 				D55C688C25C7FE0D006E8B95 /* Info.plist */,
 				D55C688D25C7FE0D006E8B95 /* main.m */,
+				D55C68B325C7FE74006E8B95 /* TestView.h */,
+				D55C68B425C7FE74006E8B95 /* TestView.m */,
+				D55C68B925C7FEE2006E8B95 /* TestView.xib */,
 			);
 			path = UIViewTest;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55C68BA25C7FEE2006E8B95 /* TestView.xib in Resources */,
 				D55C688B25C7FE0D006E8B95 /* LaunchScreen.storyboard in Resources */,
 				D55C688825C7FE0D006E8B95 /* Assets.xcassets in Resources */,
 				D55C688625C7FE09006E8B95 /* Main.storyboard in Resources */,
@@ -268,6 +277,7 @@
 			files = (
 				D55C688325C7FE09006E8B95 /* ViewController.m in Sources */,
 				D55C687D25C7FE09006E8B95 /* AppDelegate.m in Sources */,
+				D55C68B525C7FE74006E8B95 /* TestView.m in Sources */,
 				D55C688E25C7FE0D006E8B95 /* main.m in Sources */,
 				D55C688025C7FE09006E8B95 /* SceneDelegate.m in Sources */,
 			);
